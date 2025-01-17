@@ -1,0 +1,45 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "ResultMessage",
+      "DisplayName": "ResultMessage",
+      "Category": null,
+      "Tooltip": "Result message contains summary of files",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "TargetFolderPath",
+      "DisplayName": "TargetFolderPath",
+      "Category": null,
+      "Tooltip": "local directory path for file organize",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "output",
+      "DisplayName": "output",
+      "Category": null,
+      "Tooltip": "array which contains file attributes such as name, full path, size and last modification  time.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
