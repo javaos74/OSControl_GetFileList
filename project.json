@@ -1,7 +1,7 @@
 {
-  "name": "OSControl_File_Organizer",
+  "name": "OSControl_File_GetListFiles",
   "projectId": "91a3584f-0d3d-4ffb-9f1b-37a697e7032b",
-  "description": "local file organizer ",
+  "description": "Get files from given directory ",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[24.10.7]",
@@ -18,7 +18,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
